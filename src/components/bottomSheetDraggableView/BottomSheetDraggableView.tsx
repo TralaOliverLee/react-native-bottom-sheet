@@ -61,7 +61,7 @@ const BottomSheetDraggableViewComponent = ({
       .runOnJS(false)
       .onStart(contentPanGestureHandler.handleOnStart)
       .onChange(contentPanGestureHandler.handleOnChange)
-      .onEnd(contentPanGestureHandler.handleOnEnd)
+      // .onEnd(contentPanGestureHandler.handleOnEnd)
       .onFinalize(contentPanGestureHandler.handleOnFinalize);
 
     if (waitFor) {

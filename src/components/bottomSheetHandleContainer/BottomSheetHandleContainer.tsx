@@ -59,7 +59,7 @@ function BottomSheetHandleContainerComponent({
       .runOnJS(false)
       .onStart(handlePanGestureHandler.handleOnStart)
       .onChange(handlePanGestureHandler.handleOnChange)
-      .onEnd(handlePanGestureHandler.handleOnEnd)
+      // .onEnd(handlePanGestureHandler.handleOnEnd)
       .onFinalize(handlePanGestureHandler.handleOnFinalize);
 
     if (waitFor) {
